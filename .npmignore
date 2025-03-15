@@ -1,0 +1,41 @@
+# Tests
+test
+tests
+__tests__
+
+# Build tools
+.travis.yml
+.jenkins.yml
+.github
+.gitlab-ci.yml
+
+# Editor directories
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Local files
+.cursor/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Mac files
+.DS_Store
+
+# Miscellaneous
+coverage
+.nyc_output
+.env*
+*.tgz 

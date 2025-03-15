@@ -1,0 +1,41 @@
+{
+  "name": "cursor-directory",
+  "version": "1.0.1",
+  "description": "CLI tool to fetch and save Cursor rules from cursor.directory",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cursor-directory": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cursor",
+    "cursor-editor",
+    "cli",
+    "cursor-rules",
+    "cursor-directory"
+  ],
+  "author": {
+    "name": "Eric Zakariasson",
+    "url": "https://github.com/ericzakariasson"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericzakariasson/cursor-directory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ericzakariasson/cursor-directory/issues"
+  },
+  "homepage": "https://github.com/ericzakariasson/cursor-directory#readme",
+  "engines": {
+    "node": ">=14.16"
+  }
+}
