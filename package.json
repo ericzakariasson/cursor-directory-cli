@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericzakariasson/cursor-directory.git"
+    "url": "git+https://github.com/ericzakariasson/cursor-directory-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/ericzakariasson/cursor-directory/issues"
+    "url": "https://github.com/ericzakariasson/cursor-directory-cli/issues"
   },
-  "homepage": "https://github.com/ericzakariasson/cursor-directory#readme",
+  "homepage": "https://github.com/ericzakariasson/cursor-directory-cli#readme",
   "engines": {
     "node": ">=14.16"
   }
