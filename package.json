@@ -21,6 +21,12 @@
     "name": "Eric Zakariasson",
     "url": "https://github.com/ericzakariasson"
   },
+  "contributors": [
+    {
+      "name": "Mats Dodd",
+      "url": "https://github.com/Mats-Dodd"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^13.1.0",
