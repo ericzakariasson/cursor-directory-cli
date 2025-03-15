@@ -4,26 +4,49 @@ A command-line tool to download and install [Cursor Directory](https://cursor.di
 
 ## Installation
 
+There are two ways to use this tool:
+
+### Option 1: Use with npx (recommended)
+
+Run directly without installing using npx:
+
 ```bash
-# Install globally from npm
+npx cursor-directory rules add <slug|url>
+```
+
+### Option 2: Install globally
+
+```bash
 npm install -g cursor-directory
+```
+
+Then run with:
+
+```bash
+cursor-directory rules add <slug|url>
 ```
 
 ## Usage
 
 ```bash
-# Add a rule by its slug or URL
+# Using npx (without installation)
+npx cursor-directory rules add <slug|url>
+
+# Or if globally installed
 cursor-directory rules add <slug|url>
 ```
 
 ### Examples
 
 ```bash
-# Using a slug
-cursor-directory rules add al-buisnesscentral-development-cursor-rules
+# Using npx with a slug
+npx cursor-directory rules add al-buisnesscentral-development-cursor-rules
 
-# Using a URL
-cursor-directory rules add https://cursor.directory/front-end-cursor-rules
+# Using npx with a URL
+npx cursor-directory rules add https://cursor.directory/front-end-cursor-rules
+
+# Or if installed globally
+cursor-directory rules add al-buisnesscentral-development-cursor-rules
 ```
 
 ## How It Works
