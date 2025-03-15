@@ -1,6 +1,6 @@
 {
   "name": "cursor-directory",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool to fetch and save Cursor rules from cursor.directory",
   "main": "index.js",
   "type": "module",
