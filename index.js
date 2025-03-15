@@ -81,4 +81,9 @@ ${rule.content.trim()}`;
     }
   });
 
+// Show help if no arguments are provided
+if (process.argv.length <= 2) {
+  program.help();
+}
+
 program.parse(process.argv); 
