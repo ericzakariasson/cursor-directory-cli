@@ -32,7 +32,11 @@ program
 
 // Add 'rules' command with subcommands
 const rulesCommand = program.command('rules')
-  .description('Manage cursor rules');
+  .description('Manage cursor rules')
+  .action(() => {
+    // Display help for the rules command when it's used without a subcommand
+    rulesCommand.help();
+  });
 
 // Add 'add' subcommand
 rulesCommand.command('add')
