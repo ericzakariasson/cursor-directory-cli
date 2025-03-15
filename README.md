@@ -62,11 +62,6 @@ This CLI tool:
 
 Visit [cursor.directory](https://cursor.directory) to browse all available rules.
 
-Some popular rules:
-- [Front-End Developer](https://cursor.directory/front-end-cursor-rules)
-- [AL Microsoft Business Central Development](https://cursor.directory/al-buisnesscentral-development-cursor-rules)
-- [Expo React Native TypeScript](https://cursor.directory/expo-react-native-typescript-cursor-rules)
-
 ## Features
 
 - Fetches cursor rules directly from the specific API endpoint
